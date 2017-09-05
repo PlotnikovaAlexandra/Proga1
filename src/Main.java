@@ -12,15 +12,17 @@ System.out.println("Hello world");
         Scanner in = new Scanner(System.in);
         float a = in.nextFloat();
         float b = in.nextFloat();
-        float h = in.nextFloat();
-if (a<=b)
-{
-for (float i=a; i<=b; i+=h )
-{
-    d=(float) Math.sin (i);
+        float c = in.nextFloat();
 
-        System.out.println ("sin ("+i+")="+d );
-}
-    }//дописать вывод
+        d=(float)(b*b-4*a*c);
+       if (d>0)
+        System.out.print ("2 корня");
+        else
+       if (d==0)
+        System.out.print ("1 корень");
+        else
+        System.out.print ("нет корней");
+
     }
+
 }
