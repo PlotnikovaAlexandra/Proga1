@@ -7,13 +7,14 @@ public class Main {
 
 
 System.out.println("Hello world");
-float sum, srd, d;
+int sum, d;
+        float srd;
         Scanner in = new Scanner(System.in);
-        float a = in.nextFloat();
-        float b = in.nextFloat();
-        float c = in.nextFloat();
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
 sum=a+b+c;
-        srd=sum/3;
+        srd=(float) sum/3;
         while (b>a || c>a ||c>b) {
         if (b>a) {
             d=a;
