@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="323477a0-ea1b-4c1d-808f-1891745517f3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="deemarsik.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,8 +69,10 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="31" selection-start="142" selection-end="142" vertical-scroll-proportion="0.23489933" vertical-offset="0" max-vertical-offset="596">
-              <folding />
+            <state line="36" column="34" selection-start="835" selection-end="835" vertical-scroll-proportion="0.6308725" vertical-offset="344" max-vertical-offset="1040">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -341,7 +342,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -391,8 +392,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="142" selection-end="142" vertical-scroll-proportion="0.23489933" vertical-offset="0" max-vertical-offset="596">
-          <folding />
+        <state line="36" column="34" selection-start="835" selection-end="835" vertical-scroll-proportion="0.6308725" vertical-offset="344" max-vertical-offset="1040">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
