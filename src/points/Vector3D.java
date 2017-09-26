@@ -1,16 +1,12 @@
 package points;
 
- import points.*;
-class Vector3D {
+public class Vector3D {
     public double x;
     public  double y;
     public  double z;
 
     public void printVector() {
-
-        System.out.print("vector"  + "(" + x + ", " + y + ", " + z + ")");
-        System.out.println();
-    }
+        System.out.println("vector" + "(" + x + ", " + y + ", " + z + ")");     }
 
     public Vector3D() {
         x = 0.0;
@@ -24,9 +20,9 @@ class Vector3D {
         z = c;
     }
     public Vector3D(Point3D a,Point3D b) {
-        x = (b.getFirst()-a.getFirst());
-        y = (b.getSecond()-a.getSecond());
-        z = (b.getThird()-a.getThird());
+        x = (b.getX()-a.getX());
+        y = (b.getY()-a.getY());
+        z = (b.getZ()-a.getZ());
     }
 
 

@@ -6,10 +6,15 @@ package points;
 
 
 
-class Point3D {
+public class Point3D {
     private double x;
     private double y;
     private double z;
+
+    @Override
+    public String toString(){
+        return "(" + x + ", " + y + ", " + z + ")" ;
+    }
 
     public void printDot() {
         // Scanner in = new Scanner(System.in);
@@ -31,39 +36,38 @@ class Point3D {
 
 
 
-    public double getFirst() {
+    public double getX() {
         return (x);
     }
 
-    public double getSecond() {
+    public double getY() {
         return (y);
     }
 
-    public double getThird() {
+    public double getZ() {
         return (z);
     }
 
-    public void setFirst(double a) {
+    public void setX(double a) {
         x = a;
     }
 
-    public void setSecond(double b) {
+    public void setY(double b) {
         y = b;
     }
 
-    public void setThird(double c) {
+    public void setZ(double c) {
         z = c;
     }
 
 
     public boolean equalsDots(Point3D one) {
-        if (this.getFirst() == one.getFirst() && this.getSecond() == one.getSecond() && this.getThird() == one.getThird()) {
-            return (true);
-        } else {
-            return (false);
-        }
+        return (this.getX() == one.getX() && this.getY() == one.getY() && this.getZ() == one.getZ());
     }
 
+    public Point3D move(Vector3D d) {
+        return new Point3D(this.getX()+ d.getFirst(),this.getY()+d.getSecond(),this.getZ()+d.getThird());
+    }
 }
 
 
