@@ -71,7 +71,7 @@ public class test1 {
         double sc;
         boolean pos;
         Vector3D a=new Vector3D(1,2,3);
-        Vector3D b=new Vector3D(1,2,3);
+        Vector3D b=new Vector3D(1,0,3);
         Vector3D c= new Vector3D();
         Vector3D d= new Vector3D();
         Vector3D e= new Vector3D();
